@@ -4436,15 +4436,17 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <attribute name="VALUE" x="73.66" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="R106" gate="R" x="45.72" y="48.26"/>
-<instance part="U$13" gate="G$1" x="53.34" y="55.88"/>
+<instance part="U$13" gate="G$1" x="53.34" y="55.88" smashed="yes">
+<attribute name="VALUE" x="50.8" y="58.42" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="R115" gate="R" x="33.02" y="53.34"/>
 <instance part="R116" gate="R" x="76.2" y="53.34"/>
 <instance part="U$10" gate="G$1" x="71.12" y="27.94" rot="MR0"/>
 <instance part="R_S112" gate="JMP" x="38.1" y="38.1" smashed="yes" rot="MR0">
-<attribute name="NAME" x="30.48" y="36.83" size="1.778" layer="95" rot="MR180"/>
+<attribute name="NAME" x="40.64" y="41.91" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="R_S113" gate="JMP" x="58.42" y="38.1" smashed="yes">
-<attribute name="NAME" x="50.8" y="34.29" size="1.778" layer="95"/>
+<attribute name="NAME" x="48.26" y="34.29" size="1.778" layer="95"/>
 </instance>
 <instance part="C106" gate="G$1" x="25.4" y="30.48"/>
 <instance part="LED2" gate="G$1" x="63.5" y="104.14"/>
@@ -5025,7 +5027,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <wire x1="81.28" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R116" gate="R" pin="2"/>
-<label x="83.82" y="53.34" size="1.27" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="83.82" y="53.34" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
@@ -5051,7 +5053,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="60.96" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="38.1" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="45.72" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
-<label x="83.82" y="45.72" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+<label x="83.82" y="45.72" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
