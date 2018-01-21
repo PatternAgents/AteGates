@@ -18,7 +18,7 @@ for manual playing and testing of each Gate.
 [![thingSoC AteGates](https://github.com/PatternAgents/AteGates/blob/master/images/AteGates_top.png?raw=true)AteGates](https://github.com/patternagents/AteGates)
 
 AteGates can be used on a breadboard for prototyping new circuits,
-or it can mounted into a 1U using the following front panel design.
+or it can mounted into a 1U Rack system using the following 1U x 16 HP front panel design.
 
 [![AteGates 1U Front Panel](https://github.com/PatternAgents/AteGates/blob/master/images/AteGates_panel.png?raw=true)AteGates 1U Front Panel](https://github.com/patternagents/AteGates)
 
