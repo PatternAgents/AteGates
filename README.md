@@ -36,6 +36,11 @@ For using on a Breadboard, AteGates follows the thingSoC standard connector layo
 
 [![AteGates Breadboard](https://github.com/PatternAgents/AteGates/blob/master/AteGates/images/AteGates_bb.png?raw=true)AteGates Breadboard](https://github.com/patternagents/AteGates)
 
+# Using AteGates
+
+1) Breadboard : AteGates uses male pins on the bottom side of the PCB for breadboard applications.
+2) thingSoC1UG : AteGates can plug into any thingSoC1UG (1U Gate) board for adding microprocessor interfaces like MIDI or OSC.
+
 
 **thingSoC Reference Designs** are example thingSoC implementations that implement
 various reference and testing circuits for demonstrating the use of the thingSoC libraries.
