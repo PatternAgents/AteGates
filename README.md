@@ -1,6 +1,6 @@
-# AteGates : Eight (8) Gate I/O Board (Breadboard Friendly) 
+# AteGates { ERA : Eight(8) Gate I/O Board for Eurorack } 
 
-Format : ERA / Eurorack
+Format : ERA / Eurorack / Breadboard Friendly
 
 Height : 1U 
 
