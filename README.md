@@ -32,9 +32,7 @@ by placing two (2) resistors in different places (as jumpers).
 
 [![AteGates One Gate](https://github.com/PatternAgents/AteGates/blob/master/AteGates/images/OneGate.png?raw=true)AteGates One Gate](https://github.com/patternagents/AteGates)
 
-For using on a Breadboard, AteGates follows the thingSoC standard connector layout as shown below :
-
-[![AteGates Connector](https://github.com/PatternAgents/AteGates/blob/master/AteGates/images/AteGates_connector_sch.png?raw=true)AteGates Connector](https://github.com/patternagents/AteGates)
+Breadboard Use (Dual Width Breadboard)
 
 [![AteGates Breadboard](https://github.com/PatternAgents/AteGates/blob/master/AteGates/images/AteGates_bb.png?raw=true)AteGates Breadboard](https://github.com/patternagents/AteGates)
 
