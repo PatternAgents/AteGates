@@ -1,4 +1,4 @@
-# AteGates { ERA : Eight(8) Gate I/O Board for Eurorack } 
+# AteGates { ERA : Eight (8) Gate I/O with 3.5mm Jacks } 
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
