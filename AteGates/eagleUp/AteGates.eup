@@ -1,7 +1,7 @@
 version;4;5;http://eagleup.wordpress.com/;
 settings;C:/Program Files (x86)/EAGLE-6.6.0/models/;C:/Program Files (x86)/ImageMagick-6.7.6-Q16/convert.exe;C:/Program Files (x86)/ImageMagick-6.7.6-Q16/composite.exe;del;
-color;0x141414;0x202020;silver;white;
-images;U:/PatternAgents/eagle/TSOC_ERA/AteGates_1U16HP/AteGates/eagleUp/;eagleUp_AteGates;png;600;jpg;
+color;0x141414;0x202020;gold;white;
+images;U:/PatternAgents/eagle/TSOC_ERA/AteGates/AteGates/eagleUp/;eagleUp_AteGates;png;600;jpg;
 outline-line;80.264000;0.254000;1.016000;0.254000;1.600000;
 outline-line;1.016000;0.254000;1.016000;27.686000;1.600000;
 outline-line;1.016000;27.686000;80.264000;27.686000;1.600000;
@@ -110,4 +110,4 @@ hole;75.211;21.251;0.508;0.800;
 hole;75.211;14.749;0.508;0.800;
 hole;70.689;21.251;0.508;0.800;
 hole;70.689;14.749;0.508;0.800;
-hole-complete;element;100;silver;
+hole-complete;element;100;gold;

@@ -1,5 +1,7 @@
 # AteGates { ERA : Eight(8) Gate I/O Board for Eurorack } 
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 Format : ERA / Eurorack / Breadboard Friendly
 
 Height : 1U 
@@ -8,7 +10,7 @@ Width: 16HP
 
 Depth : 1.0 cm
 
-Power : 3.3V/5.0V capable (5.0V Eurorack default)
+Power : +12V 20mA
 
 AteGates (pronounced as "Eight Gates") is a simple eight (8) bit I/O module,
 where any Gate (Jack) can either be an input or an output.

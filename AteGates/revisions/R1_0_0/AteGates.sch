@@ -4338,9 +4338,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="R_S101" library="PatternAgents-ProtoPads" deviceset="JMP-3-NO" device="-0603" value="100"/>
 <part name="R_S102" library="PatternAgents-ProtoPads" deviceset="JMP-3-NO" device="-0603"/>
 <part name="C100" library="PatternAgents-ProtoPads" deviceset="CAP" device="0603-CAP" value="100nf"/>
-<part name="R9" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0603-RES" value="33K"/>
-<part name="R10" library="PatternAgents-ProtoPads" deviceset="RESISTOR" device="0603-RES" value="47K"/>
-<part name="U$25" library="PatternAgents-Beautify" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4381,7 +4378,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 determine input or output
 input    : S10X 10K   / S10Y 100R
 output : S10X 100R / S10Y 10K </text>
-<text x="177.8" y="27.94" size="3.81" layer="91" font="vector" ratio="20">Eight (8) "AteGates" I/O</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
@@ -4636,9 +4632,6 @@ output : S10X 100R / S10Y 10K </text>
 <attribute name="NAME" x="137.16" y="181.61" size="1.778" layer="95"/>
 </instance>
 <instance part="C100" gate="G$1" x="111.76" y="177.8"/>
-<instance part="R9" gate="R" x="238.76" y="96.52" rot="R90"/>
-<instance part="R10" gate="R" x="238.76" y="109.22" rot="R90"/>
-<instance part="U$25" gate="G$1" x="238.76" y="91.44" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -4765,10 +4758,6 @@ output : S10X 100R / S10Y 10K </text>
 <segment>
 <pinref part="U$24" gate="G$1" pin="GND"/>
 <pinref part="Q106" gate="G$1" pin="E"/>
-</segment>
-<segment>
-<pinref part="R9" gate="R" pin="1"/>
-<pinref part="U$25" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="P1J_TN" class="0">
@@ -5102,6 +5091,16 @@ output : S10X 100R / S10Y 10K </text>
 <wire x1="53.34" y1="104.14" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<wire x1="208.28" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<label x="203.2" y="60.96" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<pinref part="J101" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<wire x1="248.92" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
+<label x="243.84" y="60.96" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
+<pinref part="J100" gate="G$1" pin="6"/>
+</segment>
+<segment>
 <pinref part="R113" gate="R" pin="2"/>
 <pinref part="LED3" gate="G$1" pin="ANODE"/>
 <wire x1="38.1" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
@@ -5172,14 +5171,6 @@ output : S10X 100R / S10Y 10K </text>
 <junction x="139.7" y="200.66"/>
 <pinref part="U$23" gate="G$1" pin="VCC"/>
 <wire x1="139.7" y1="203.2" x2="139.7" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R10" gate="R" pin="1"/>
-<pinref part="R9" gate="R" pin="2"/>
-<wire x1="238.76" y1="104.14" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
-<junction x="238.76" y="101.6"/>
-<label x="233.68" y="101.6" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SW2" class="0">
@@ -5731,25 +5722,6 @@ output : S10X 100R / S10Y 10K </text>
 <wire x1="109.22" y1="185.42" x2="109.22" y2="170.18" width="0.1524" layer="91"/>
 <junction x="109.22" y="185.42"/>
 <junction x="109.22" y="170.18"/>
-</segment>
-</net>
-<net name="12V0" class="0">
-<segment>
-<pinref part="J101" gate="G$1" pin="6"/>
-<wire x1="208.28" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
-<label x="203.2" y="60.96" size="1.27" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="R10" gate="R" pin="2"/>
-<wire x1="238.76" y1="114.3" x2="233.68" y2="114.3" width="0.1524" layer="91"/>
-<label x="233.68" y="114.3" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N12V0" class="0">
-<segment>
-<wire x1="248.92" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
-<label x="243.84" y="60.96" size="1.27" layer="95" font="vector" ratio="10" rot="MR0" xref="yes"/>
-<pinref part="J100" gate="G$1" pin="6"/>
 </segment>
 </net>
 </nets>
